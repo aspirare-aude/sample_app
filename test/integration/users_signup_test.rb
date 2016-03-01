@@ -14,7 +14,7 @@ require 'test_helper'
       end
       assert_template 'users/new'
     end
-    
+
 
     test "valid signup information" do
       get signup_path
